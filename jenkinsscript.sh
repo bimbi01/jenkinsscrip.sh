@@ -14,6 +14,9 @@ systemctl enable docker
 systemctl start docker
 usermod -aG docker ubuntu
 
+# Etra Package to Install
+apt-get install git vi
+
 # run jenkins
 mkdir -p /var/jenkins_home
 chown -R 1000:1000 /var/jenkins_home/
